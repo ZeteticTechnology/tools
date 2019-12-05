@@ -22,6 +22,7 @@ sudo apt update
 sudo apt -y install postgresql-12 postgresql-client-12
 sudo su - postgres
 sudo apt install pgadmin4 pgadmin4-apache2
+sudo apt install -y htop
 #psql -c "alter user postgres with password 'postgres'"
 #su - john
 #TODO
